@@ -1,4 +1,4 @@
-package member.Kristen.FactoryPattern;
+package member.Kristen.simpleFactoryPattern;
 
 public class Square implements Shape {
 

@@ -1,7 +1,7 @@
 package member.ruinye.design_patterns.creative_patterns.factory.simple_factory;
 
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.simple_factory.entity.Syslog_entity;
 
+import member.ruinye.design_patterns.creative_patterns.factory.simple_factory.entity.Syslog_entity;
 
 /**
  * syslog日志范式化

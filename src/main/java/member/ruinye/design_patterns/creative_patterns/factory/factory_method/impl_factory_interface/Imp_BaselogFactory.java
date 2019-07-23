@@ -1,12 +1,16 @@
 package member.ruinye.design_patterns.creative_patterns.factory.factory_method.impl_factory_interface;
 
+import member.ruinye.design_patterns.creative_patterns.factory.factory_method.factory_interface.I_BaselogFactory;
+import member.ruinye.design_patterns.creative_patterns.factory.factory_method.product.I_Baselog;
+import member.ruinye.design_patterns.creative_patterns.factory.factory_method.product.Syslogs;
+import member.ruinye.design_patterns.creative_patterns.factory.factory_method.product.Winlog;
 
 /**
  * 
  * @author jiyourui
  * 工厂接口方法实现
  */
-public class Imp_BaselogFactory implements I_BaselogFactory{
+public class Imp_BaselogFactory implements I_BaselogFactory {
 
 	// 根据日志类型范式化创建entity
 	@Override

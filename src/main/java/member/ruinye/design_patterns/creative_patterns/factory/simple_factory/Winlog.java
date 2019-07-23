@@ -1,6 +1,7 @@
 package member.ruinye.design_patterns.creative_patterns.factory.simple_factory;
 
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.simple_factory.entity.Winlog_entity;
+
+import member.ruinye.design_patterns.creative_patterns.factory.simple_factory.entity.Winlog_entity;
 
 /**
  * windows日志范式化

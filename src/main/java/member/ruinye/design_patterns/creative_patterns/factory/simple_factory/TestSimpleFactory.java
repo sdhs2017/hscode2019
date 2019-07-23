@@ -1,3 +1,4 @@
+/*
 package member.ruinye.design_patterns.creative_patterns.factory.simple_factory;
 
 import org.junit.Test;
@@ -7,11 +8,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.jz.bigdata.components.design_patterns.creative_patterns.factory.simple_factory.entity.Syslog_entity;
 import com.jz.bigdata.components.design_patterns.creative_patterns.factory.simple_factory.entity.Winlog_entity;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(SpringJUnit4ClassRunner.class)
 public class TestSimpleFactory {
 
 	
-	@Test
+	//@Test
 	public void test(){
 		String syslog_log = "一条syslog日志"; 
 		String winlog_log = "一条winlog日志"; 
@@ -26,3 +27,4 @@ public class TestSimpleFactory {
 		System.out.println("日志范式化结果： 日志类型："+win.getType()+" 日志内容："+win.getDes());
 	}
 }
+*/

@@ -12,6 +12,8 @@ public class Singleton {
 
     /**
      * test
+     *
+     *
      */
     public void testSingleton(){
         //TODO

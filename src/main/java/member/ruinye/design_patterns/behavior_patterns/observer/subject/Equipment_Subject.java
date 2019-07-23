@@ -39,7 +39,7 @@ public class Equipment_Subject {
     // 删除观察者方法
     public void delObserver(Equipment_Observer observer){
         if (!equipment_observers.isEmpty()){
-            equipment_observers.add(observer);
+            equipment_observers.remove(observer);
         }
     }
 

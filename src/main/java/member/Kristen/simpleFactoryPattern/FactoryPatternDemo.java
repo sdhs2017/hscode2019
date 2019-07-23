@@ -8,7 +8,7 @@ public class FactoryPatternDemo {
 
         //get an object of Circle and call its draw method.
         // to call static method:lassName.methodName (don't need to make an object of ShapeFactory
-        Shape shape1 = ShapeFactory.getShape("no-edge");
+        Shape shape1 = ShapeFactory2.getShape("no-edge");
 
         //call draw method of Circle
         shape1.draw();

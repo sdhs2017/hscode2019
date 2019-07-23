@@ -1,9 +1,5 @@
 package member.ruinye.design_patterns.creative_patterns.factory.factory_method.impl_factory_interface;
 
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.factory_method.factory_interface.I_BaselogFactory;
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.factory_method.product.I_Baselog;
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.factory_method.product.Syslogs;
-import com.jz.bigdata.components.design_patterns.creative_patterns.factory.factory_method.product.Winlog;
 
 /**
  * 

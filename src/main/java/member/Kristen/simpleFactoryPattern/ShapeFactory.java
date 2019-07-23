@@ -23,10 +23,8 @@ public class ShapeFactory {
         if(shapeType == null){
             return null;
         }
-        if(shapeType.equals("no-edge")){
-            return new Circle();
 
-        } else if(shapeType.equals("trilateral")){
+        if(shapeType.equals("trilateral")){
             return new Rectangle();
 
         } else if(shapeType.equals("quadrilateral")){
@@ -35,4 +33,5 @@ public class ShapeFactory {
 
         return null;
     }
+
 }

@@ -1,7 +1,7 @@
-package subject;
+package member.ruinye.design_patterns.behavior_patterns.observer.subject;
 
-import observer.entity.Equipment;
-import observer_interface.Equipment_Observer;
+import member.ruinye.design_patterns.behavior_patterns.observer.entity.Equipment;
+import member.ruinye.design_patterns.behavior_patterns.observer.observer_interface.Equipment_Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Equipment_Subject {
     private List<Equipment_Observer> equipment_observers = new ArrayList<>();
 
     // 定义被观察者属性
-    private observer.entity.Equipment equipment;
+    private Equipment equipment;
 
     public Equipment getEquipment() {
         return equipment;

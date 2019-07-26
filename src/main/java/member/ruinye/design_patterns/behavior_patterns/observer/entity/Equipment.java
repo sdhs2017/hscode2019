@@ -1,4 +1,4 @@
-package observer.entity;
+package member.ruinye.design_patterns.behavior_patterns.observer.entity;
 
 public class Equipment {
 

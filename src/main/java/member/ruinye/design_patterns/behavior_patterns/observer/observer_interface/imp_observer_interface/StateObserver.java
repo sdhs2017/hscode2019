@@ -1,9 +1,8 @@
-package observer.observer_interface.imp_observer_interface;
+package member.ruinye.design_patterns.behavior_patterns.observer.observer_interface.imp_observer_interface;
 
-import observer.entity.Equipment;
-
-import observer_interface.Equipment_Observer;
-import subject.Equipment_Subject;
+import member.ruinye.design_patterns.behavior_patterns.observer.entity.Equipment;
+import member.ruinye.design_patterns.behavior_patterns.observer.observer_interface.Equipment_Observer;
+import member.ruinye.design_patterns.behavior_patterns.observer.subject.Equipment_Subject;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,9 +1,9 @@
-package observer;
+package member.ruinye.design_patterns.behavior_patterns.observer;
 
-import observer.entity.Equipment;
-import observer.observer_interface.imp_observer_interface.EquipmentObserver;
-import subject.Equipment_Subject;
-
+import member.ruinye.design_patterns.behavior_patterns.observer.entity.Equipment;
+import member.ruinye.design_patterns.behavior_patterns.observer.observer_interface.imp_observer_interface.EquipmentObserver;
+import member.ruinye.design_patterns.behavior_patterns.observer.observer_interface.imp_observer_interface.StateObserver;
+import member.ruinye.design_patterns.behavior_patterns.observer.subject.Equipment_Subject;
 
 public class TestObserver {
 
@@ -13,7 +13,7 @@ public class TestObserver {
 
         // 观察者
         new EquipmentObserver(equipment_subject);
-        new observer.observer_interface.imp_observer_interface.StateObserver(equipment_subject);
+        new StateObserver(equipment_subject);
 
         Equipment equipment = new Equipment();
         equipment.setId("1");

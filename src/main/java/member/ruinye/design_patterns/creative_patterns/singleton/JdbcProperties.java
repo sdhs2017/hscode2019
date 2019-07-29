@@ -8,7 +8,6 @@ import java.util.Properties;
 
 public class JdbcProperties {
 
-    private static JdbcProperties jdbcProperties = null;
     private Properties properties;
 
     // 私有构造方法，只允许内部类调用，且初始化的时候不会走该构造方法
@@ -26,20 +25,20 @@ public class JdbcProperties {
         }
     }
 
+
+
     // 通过获取实例方法调用构造方法
-    public static JdbcProperties getInstance(){
-        if (jdbcProperties==null){
-            synchronized (JdbcProperties.class){
-                if (jdbcProperties==null){
-                    jdbcProperties = new JdbcProperties();
-                }
-            }
-        }
-        return jdbcProperties;
+    public static final JdbcProperties getInstance(){
+        return JdbcPropertiesHold.jdbcProperties;
     }
 
     // 通过KEY获取配置内容
     public String getProperty(String key){
         return properties.getProperty(key);
+    }
+
+    // 静态内部类
+    public static class JdbcPropertiesHold{
+        private static JdbcProperties jdbcProperties = new JdbcProperties();
     }
 }

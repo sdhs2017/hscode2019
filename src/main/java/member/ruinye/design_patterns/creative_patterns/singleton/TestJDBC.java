@@ -22,8 +22,8 @@ public class TestJDBC {
             e.printStackTrace();
         }*/
 
-        /*JdbcProperties jdbcProperties = JdbcProperties.getInstance();
-        System.out.println(jdbcProperties.getProperty("jdbc.driver"));*/
+        JdbcProperties jdbcProperties = JdbcProperties.getInstance();
+        System.out.println(jdbcProperties.getProperty("jdbc.driver"));
 
         Resources resources =  LoadResources.INSTANCE.getResources();
 

@@ -1,9 +1,6 @@
-package member.savilio.design_pattern.Observer.demo1;
+package member.savilio.design_pattern.observer.demo1;
 
-import sun.rmi.runtime.Log;
-
-import java.util.Observable;
-import java.util.Observer;
+import java.util.*;
 
 /**
  * 观察者模式：商人，价格变动

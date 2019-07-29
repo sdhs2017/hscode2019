@@ -1,4 +1,4 @@
-package member.savilio.design_pattern.Observer.demo1;
+package member.savilio.design_pattern.observer.demo1;
 
 import java.util.Observable;
 

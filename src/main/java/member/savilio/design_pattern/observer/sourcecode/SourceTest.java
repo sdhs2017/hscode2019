@@ -1,4 +1,4 @@
-package member.savilio.design_pattern.Observer.sourcecode;
+package member.savilio.design_pattern.observer.sourcecode;
 
 public class SourceTest {
 

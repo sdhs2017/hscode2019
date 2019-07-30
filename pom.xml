@@ -8,6 +8,14 @@
     <artifactId>hscode2019</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+
     <!-- build 指定jdk版本 update时生效 -->
     <build>
         <plugins>

@@ -13,5 +13,17 @@ public class Client {
         //接收建造者角色产品建造结果
         Product product = builder.retrieveResult();
         System.out.println(product.toString());
+
+
+
+        //另一种实现
+        Director2 director2 = new Director2();
+        System.out.println(director2.getProduct(builder));
+
+//        Builder builder2 = new ConcreteBuilder();
+//        System.out.println(director2.getProduct(builder2));
+
+
+
     }
 }

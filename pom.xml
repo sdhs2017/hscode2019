@@ -15,6 +15,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <!-- 资源库 -->
+    <dependencies>
+        <!-- mysql 8.0.17 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+        </dependency>
+
+    </dependencies>
+
 
     <!-- build 指定jdk版本 update时生效 -->
     <build>

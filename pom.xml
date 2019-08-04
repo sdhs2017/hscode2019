@@ -26,6 +26,7 @@
         </dependency>
 
 
+
         <!-- mysql 8.0.17 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -46,6 +47,11 @@
                     <source>8</source>
                     <target>8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
             </plugin>
         </plugins>
     </build>
